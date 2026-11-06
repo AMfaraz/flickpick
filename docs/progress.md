@@ -36,7 +36,10 @@ Last updated: 2026-11-06
    - **1A ← we are here.** First sent as one long message; the student found it too big, so it is being
      re-taught in 3 parts, one per "next": (1) concept + RN bridge + create project; (2) run dev server +
      open in editor + metadata code + industry + alternatives; (3) mistakes + task + git.
-     **Part 1 sent; waiting for "next".** Content: `create-next-app .` with **"customize settings"**
+     **Part 1 done (project created 2026-11-07: next 16.4.5, react 19.3.0, Tailwind via
+     `@tailwindcss/turbopack`, commit 680886c "Initial commit from Create Next App"). Part 2 sent.**
+     npm audit: 8 moderate in dev-only ESLint chain (minimatch via typescript-eslint); `--omit=dev` = 0. Part 2 done (metadata title changed, verified). **Part 3 sent:** h1 task + first own commit.
+     Told the student NOT to run `npm audit fix --force` (it would downgrade eslint-config-next to 15.5.29). Content: `create-next-app .` with **"customize settings"**
      (same as recommended but with `src/` = Yes), `npm run dev`, change `metadata` in `app/layout.tsx` (given) and the `<h1>` in
      `app/page.tsx` (their task), then their first own commit. When they say done, review the real files
      in the folder.
